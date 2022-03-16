@@ -71,6 +71,8 @@ class KodiHelper(object):
             country_code = 'pl'
         elif country_id == '5':
             country_code = 'lt'
+        elif country_id == '6':
+            country_code = 'nl'
 
         return country_code
 

@@ -85,6 +85,8 @@ def generate_m3u():
         chann = 'channels'
     elif country_id == '4':
         chann = 'channels'
+    elif country_id == '5':
+        chann = 'channels'
 
     url = 'https://content.viaplay.{c1}/xdk-{c2}/{chann}'.format(c1=country_code, c2=country_code, chann=chann)
 
