@@ -54,7 +54,7 @@ class Viaplay(object):
             os.makedirs(self.tempdir)
         self.deviceid_file = os.path.join(settings_folder, 'deviceId')
         self.http_session = requests.Session()
-        self.device_key = 'xdk-%s' % self.country
+        self.device_key = 'xdk-nl' #%s' % self.country
         self.base_url = 'https://content.viaplay.{0}/{1}'.format(self.country, self.device_key)
         self.login_api = 'https://login.viaplay.%s/api' % self.country
         try:
